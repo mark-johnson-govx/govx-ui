@@ -1,0 +1,47 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  .reset {
+    @apply tw-font-sans tw-text-base tw-text-gray-900
+  }
+  button.reset {
+    @apply tw-border-0 tw-border-solid tw-border-gray-500 tw-cursor-pointer;
+  }
+  img.reset, svg.reset, video,
+  canvas.reset,
+  audio.reset,
+  iframe.reset,
+  embed.reset,
+  object.reset  {
+    @apply tw-block tw-align-middle tw-max-w-full tw-h-auto;
+  }
+  ol.reset, li.reset {
+    @apply tw-list-none tw-m-0 tw-p-0;
+  }
+  h1.reset,
+  h2.reset,
+  h3.reset,
+  h4.reset,
+  h5.reset,
+  h6.reset {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  blockquote,
+  dl.reset,
+  dd.reset,
+  h1.reset,
+  h2.reset,
+  h3.reset,
+  h4.reset,
+  h5.reset,
+  h6.reset,
+  hr.reset,
+  figure.reset,
+  p.reset,
+  pre.reset {
+    margin: 0;
+  }
+}
