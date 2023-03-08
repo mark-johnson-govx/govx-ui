@@ -1,4 +1,4 @@
 import "./index.css";
 
-import Button from "./stories/auth/Button";
+import Button from "./components/GovX/Button";
 export { Button };
