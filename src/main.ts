@@ -1,4 +1,4 @@
-import './index.css'
+import "./index.css";
 
-import Button from './Button'
-export { Button }
+import Button from "./stories/auth/Button";
+export { Button };

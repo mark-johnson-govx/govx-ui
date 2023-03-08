@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Mona-Sans";
+  src: url("./assets/fonts/mona-sans/Mona-Sans.woff2");
+  src: url("./assets/fonts/mona-sans/Mona-Sans.woff");
+  src: url("./assets/fonts/mona-sans/Mona-Sans.ttf");
+}
+@font-face {
+  font-family: "Hubot-Sans";
+  src: url("./assets/fonts/mona-sans/Hubot-Sans.woff2");
+  src: url("./assets/fonts/mona-sans/Hubot-Sans.woff");
+  src: url("./assets/fonts/mona-sans/Hubot-Sans.ttf");
+}

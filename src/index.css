@@ -1,13 +1,15 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url(fonts.css);
+
 
 @layer components {
   .reset {
-    @apply tw-font-sans tw-text-base tw-text-gray-900
+    @apply tw-font-sans tw-text-base tw-text-gray-darkest
   }
   button.reset {
-    @apply tw-border-0 tw-border-solid tw-border-gray-500 tw-cursor-pointer;
+    @apply tw-border-0 tw-border-solid tw-border-gray-medium tw-cursor-pointer;
   }
   img.reset, svg.reset, video,
   canvas.reset,
@@ -43,5 +45,16 @@
   p.reset,
   pre.reset {
     margin: 0;
+  }
+
+  h3, h4, h5, h6 {
+    @apply tw-font-display tw-font-bold
+  }
+  h1, h2 {
+    @apply tw-font-display tw-font-black
+  }
+
+  a, a:link {
+    @apply tw-underline tw-text-blue-dark
   }
 }
