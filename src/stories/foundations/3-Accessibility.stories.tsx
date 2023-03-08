@@ -8,6 +8,7 @@ const meta = {
     a11y: {
       disable: true,
     },
+    options: { showPanel: false }
   },
 } satisfies Meta;
 
