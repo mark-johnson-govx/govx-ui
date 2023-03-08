@@ -1,5 +1,4 @@
-import { Prism } from "@mantine/prism";
-import React, { PropsWithChildren, ReactNode } from "react";
+import React from "react";
 
 const basePalette: ColorPaletteItemProps[] = [
   {
@@ -256,15 +255,5 @@ const ColorPaletteItem: React.FC<ColorPaletteItemProps> = ({
   );
 };
 
-type CodeBlockProps = {
-  children: string;
-};
-export const CodeBlock: React.FC<CodeBlockProps> = ({ children }) => {
-  return (
-    <Prism withLineNumbers language="tsx">
-      {children}
-    </Prism>
-  );
-};
 
 export default ColorsCanvas;
