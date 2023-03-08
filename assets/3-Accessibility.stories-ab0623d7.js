@@ -1,0 +1,4 @@
+import{j as i,a as e}from"./jsx-runtime-ee212120.js";import"./index-f1f749bf.js";import"./_commonjsHelpers-042e6b4d.js";const c=()=>i("div",{className:"tw-font-sans tw-text-gray-darkest",children:[e("h2",{className:"reset tw-font-extrabold tw-text-3xl tw-mt-4 tw-tracking-wide",children:"Accessibility"}),e("hr",{className:"reset tw-mb-8 tw-mt-4"}),e("div",{className:"tw-bg-yellow tw-p-4 tw-rounded-lg tw-font-bold tw-font-lg",children:"To Do"})]}),d={title:"Accessibility",parameters:{a11y:{disable:!0},options:{showPanel:!1}}},t={render:c};var s,r,a;t.parameters={...t.parameters,docs:{...(s=t.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  render: AccessibilityCanvas
+}`,...(a=(r=t.parameters)==null?void 0:r.docs)==null?void 0:a.source}}};const m=["Accessibility"];export{t as Accessibility,m as __namedExportsOrder,d as default};
+//# sourceMappingURL=3-Accessibility.stories-ab0623d7.js.map
